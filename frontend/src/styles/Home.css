@@ -1,0 +1,96 @@
+.home-container {
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #111827;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+/* RIGHT BUTTONS */
+.nav-right {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* LOGIN BUTTON */
+.login-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+/* REGISTER BUTTON */
+.register-btn {
+  background: #4f46e5;
+  color: white;
+}
+
+.register-btn:hover {
+  background: #3730a3;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* HERO BUTTONS */
+.hero-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.hero-btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero-btn.primary {
+  background: white;
+  color: #4f46e5;
+}
+
+.hero-btn.secondary {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}

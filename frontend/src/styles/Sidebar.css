@@ -1,0 +1,46 @@
+.sidebar {
+  width: 240px;
+  min-width: 240px;
+  min-height: 100vh;
+  background: #1e293b;
+  color: white;
+}
+
+.logo {
+  text-align: center;
+  padding: 25px;
+  border-bottom: 1px solid #334155;
+}
+
+.logo h2 {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px;
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 14px 18px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  background: #2563eb;
+}
+
+.sidebar ul li a.active {
+  background: #2563eb;
+}
